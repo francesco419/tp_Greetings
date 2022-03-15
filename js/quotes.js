@@ -1,47 +1,48 @@
 const quotes = [
     {
-        quote:"what the f1",
-        author:"Lee1"
+        quote:"The road to success and the road to failure are almost exactly the same.",
+        author:"- Colin R. Davis"
     },
     {
-        quote:"what the f2",
-        author:"Lee2"
+        quote:"life is not fair get used to it.",
+        author:"- Bill Gates"
     },
     {
-        quote:"what the f3",
-        author:"Lee3"
+        quote:"Anyone who has never made a mistake has never tried anything new.",
+        author:"- Albert Einstein"
     },
     {
-        quote:"what the f4",
-        author:"Lee4"
+        quote:"The way get started is to quit talking and begin doing.",
+        author:"- Walt Disney"
     },
     {
-        quote:"what the f5",
-        author:"Lee5"
+        quote:"Action is the foundational key to all success.",
+        author:"- Pablo Picasso"
     },
     {
-        quote:"what the f6",
-        author:"Lee6"
+        quote:"Life is from the inside out. When you shift on the inside, life shifts on the outside.",
+        author:"- Kamal Ravikant"
     },
     {
-        quote:"what the f7",
-        author:"Lee7"
+        quote:"Life is a mountain. Your goal is to find your path, not to reach the top.",
+        author:"- Maxime Lagacé"
     },
     {
-        quote:"what the f8",
-        author:"Lee8"
+        quote:"Happiness is a habit—cultivate it.",
+        author:"- Elbert Hubbard"
     },
     {
-        quote:"what the f9",
-        author:"Lee9"
+        quote:" Never let the fear of striking out keep you from playing the game.",
+        author:"- Babe Ruth"
     },
     {
-        quote:"what the f10",
-        author:"Lee10"
+        quote:"Being happy never goes out of style.",
+        author:"- Lilly Pulitzer"
     }
 ];
 
-const quote = document.querySelector("#quote span:first-child");
+
+const quote = document.querySelector("#quote div:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 const sayQuote = quotes[(Math.floor(Math.random()*quotes.length))];
