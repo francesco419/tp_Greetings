@@ -23,4 +23,4 @@ git을 잘못 사용한 바람에 작성한 Readme가 없어짐....
 
 -setinterval을 사용해 Quote(명언 문구)가 주기적으로 바뀌도록함.(이전에는 한번만 실행)
 
-![2ndcommit greet](https://user-images.githubusercontent.com/84317858/158579345-2daf36da-324c-4129-a7a1-27a299c341b1.PNG)
+![2ndcommit greet](https://user-images.githubusercontent.com/84317858/158579759-5ac24947-5c4e-4aa2-870a-6c52f7cbe092.PNG)
