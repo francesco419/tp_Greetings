@@ -3,14 +3,14 @@
 git을 잘못 사용한 바람에 작성한 Readme가 없어짐....
 추후에 기억을 되짚어 다시 작성하도록 함.
 
-==1st commit==
+##==1st commit==
 
 (-저장한 사진만 다시 복원)
 
 ![greetings](https://user-images.githubusercontent.com/84317858/158579317-6d81584f-6cce-435f-b6d0-e3dc2c8065a3.PNG)
 
 
-==2nd commit==(error fix)
+##==2nd commit==(error fix)
 
 -clock.js의 date를 사용해 요일(day) 위에 년/월/일(yyyy/mm/dd)을 추가.
 
