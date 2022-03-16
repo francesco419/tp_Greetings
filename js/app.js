@@ -14,7 +14,9 @@ function handleLoginBtnClick(event){
 }
 
 function paintGreetings(username){
-    greeting.innerText = `Hello ${username}`;
+    const arrGreetings = ["Hello","Wellcome","Good day","Hey", "What's up"]
+    const sayGreetings = arrGreetings[(Math.floor(Math.random()*arrGreetings.length))];
+    greeting.innerText = `${sayGreetings} ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 

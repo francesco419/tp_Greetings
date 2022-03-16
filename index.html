@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <title>Momentum</title>
 </head>
 <body>
     <section class="fontstyle">
         <div class="dayweather">
-            <div>
-                <span class="monthday" id="daymonth">
-                    day
+            <div class="date">
+                <span>
+                    <div id="ymd"></div>
+                    <span class="day" id="daymonth">
+                        day
+                    </span>
                 </span>
-                <span class="weathercss" id="weather">
+                <div class="weathercss" id="weather">
                     <span></span>
                     <span id="schild"></span>
                     <span></span>
-                </span>
+                </div>
             </div>
             <div>
                 <span class="clockdesign" id="clock">
@@ -27,20 +33,19 @@
                 <span class="clocksecond" id="second">00</span>
             </div>
         </div>
-
-        <form class="hidden login" id="login-form">
+        <div class="aligncenterLogin">
+            <form class="hidden login" id="login-form">
             <input required maxlength="15" type="text" placeholder="NickName" />
-            <button>Log In</button>
-        </form>
-        <div id="greeting" class="hidden greet"></div>
-
+            </form>
+            <div id="greeting" class="hidden greet"></div>
+        </div> 
         <div class="test">
             <form class="aligncenter" id="todo-form">
                 <div class="aligncenter">
                     <input type="text" placeholder="Today's Work" required>
                 </div>
             </form>
-            <ul class="aligncenter" id="todo-list"></ul>
+            <ul class="aligncenterUi" id="todo-list"></ul>
         </div>
         <div id="quote" class="quotecss">
             <div></div>

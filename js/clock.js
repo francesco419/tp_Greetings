@@ -1,13 +1,14 @@
 const clock  = document.getElementById("clock");
 const clocksecond = document.getElementById("second");
 const daymonth = document.getElementById("daymonth");
+const dym = document.getElementById("ymd");
 
 const DAY_ARR=["Sun","Mon","Tue","Wed","Thur","Fri","Sat"];
 
 function getDay(){
-    const date = new Date();
-    const day= date.getDay();
-    daymonth.innerText = `${DAY_ARR[day]}`;
+    const Ndate = new Date();
+    dym.innerText=`${Ndate.getFullYear()} / ${Ndate.getMonth()+1} / ${Ndate.getDate()}`
+    daymonth.innerText = `${DAY_ARR[Ndate.getDay()]}`;
 }
 
 function getClock(){

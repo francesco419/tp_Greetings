@@ -45,7 +45,12 @@ const quotes = [
 const quote = document.querySelector("#quote div:first-child");
 const author = document.querySelector("#quote span:last-child");
 
-const sayQuote = quotes[(Math.floor(Math.random()*quotes.length))];
+function QuotesInterval(){
+    const sayQuote = quotes[(Math.floor(Math.random()*quotes.length))];
+    quote.innerText = sayQuote.quote;
+    author.innerText = sayQuote.author;
+}
 
-quote.innerText = sayQuote.quote;
-author.innerText = sayQuote.author;
+QuotesInterval();
+
+setInterval(QuotesInterval, 9999);
